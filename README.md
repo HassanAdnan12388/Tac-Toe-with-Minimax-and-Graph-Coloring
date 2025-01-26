@@ -16,8 +16,8 @@ This project contains two main functionalities:
       This algorithm attempts to assign a color to each node by using a depth-first search (DFS) approach. If a node cannot be assigned a valid color (due to conflicts with its           neighbors), the algorithm backtracks and tries a different color until a solution is found.
 
 
-    - Graph Drawing and Solution Visualization
-    Once the graph coloring solution is determined, the results are visualized using NetworkX and Matplotlib. The nodes of the graph are displayed with different colors to represent the solution, and the edges connecting them indicate the relationships between nodes.
+    - **Graph Drawing and Solution Visualization**
+    Once the graph coloring solution is determined, the results are visualized using NetworkX and Matplotlib. The nodes of the graph are displayed with different colors to                represent the solution, and the edges connecting them indicate the relationships between nodes.
     
     Running the graph coloring solution will show a visual representation of the graph with the assigned colors, helping to confirm the correctness of the coloring.
 
